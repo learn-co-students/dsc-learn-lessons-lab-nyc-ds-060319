@@ -4,14 +4,16 @@ import pytest
 import importlib
 
 # importing objects from the jupyter notebook here
-from ipynb.fs.full.index import # variable names go here
-
-# format for writing tests
-# all functions that are to be run by test suite *must* be prepended with test_
-def test_name_of_test_here():
-    assert True, "AssertionError will *not* raise and this message will not show"
-    assert False, "AssertionError will raise and output this message in the trace"
+from ipynb.fs.full.index import number, flatiron_mantra # variable names go here
 
 # tests to ensure correct environment is loaded
 def test_conda_environment_activated():
     assert importlib.util.find_spec("obscure"), "It looks like you didn't 'conda activate learn-env' - try that then run the test again!"
+
+def test_number():
+    assert number is not None, "Remember to replace None with 42!"
+    assert number == 42, "We want to assign the `number` variable to 42"
+
+def test_faltiron_matra():
+    assert faltiron_matra is not None, "Remember to replace None with the faltiron_matra, `Learn. Love. Code.`!"
+    assert faltiron_matra == "Learn. Love. Code.", "We want to assign the `faltiron_matra` variable to the string `Learn. Love. Code.`"
