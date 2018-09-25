@@ -1,32 +1,52 @@
-# Object Orientation
 
-## Overview
+# Working with Lessons on Learn - Lab
 
-We'll introduce the concept of Object Oriented Programming (OOP)
+## Introduction
+Now that we have had an introduction with our command line, how to clone github repos to our local machine (our computer), and some common jupyter notebook operations, it's time to put our skills to the test! Below, follow the instructions to pass the tests for this lab.
 
-## Object-Oriented Programming (OOP)
+## Objectives
+* Make changes to a jupyter notebook and push it up to GitHub
+* Perform basic computations in a Jupyter Notebook and store them in a variable
 
-*An object-oriented approach to application development makes programs more intuitive to design, faster to develop, more amenable to modification, and easier to understand.*  
-—[*Object-Oriented Programming with Objective-C*][apple_oop_guide_intro], Apple Inc.
+## Instructions
 
-[apple_oop_guide_intro]: https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/OOP_ObjC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005149-CH1-SW2
+Assign the below variable `number` to the number `27` by replacing `None` with `27`.
 
-It's natural to wonder, "how can a string of ones and zeroes be referred to as an 'object'?" The use of the word "object" is an abstraction of thought. An "object" in code has no more physical form than does a word in any human language. Sure, words have physical representations: speaking a word causes air to vibrate in a sound wave, ink on a page can be shaped into symbols that represent the word, a meaning can be pointed at or mimed out; but none of these are the word itself. Human language is a system of abstraction: it communicates the *idea* of a thing, but not the thing itself.
 
-![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)  
-Translation: "This is not a pipe." - [*The Treachery of Images*](https://en.wikipedia.org/wiki/The_Treachery_of_Images), [René Magritte](https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte), 1927  
+```python
+number = None
+number
+```
 
-This image of a pipe is no more a pipe than the word "pipe" is a pipe; in the same way, a code object named `pipe` is not a pipe, but only another form of representing a pipe.
+Next, like the above, reassign the `flatiron_mantra` variable with the string `"Learn. Love. Code."`. 
 
->As humans, we’re constantly faced with myriad facts and impressions that we must make sense of. To do so, we must abstract underlying structure away from surface details and discover the fundamental relations at work. Abstractions reveal causes and effects, expose patterns and frameworks, and separate what’s important from what’s not. Object orientation provides an abstraction of the data on which you operate; moreover, it provides a concrete grouping between the data and the operations you can perform with the data—in effect giving the data behavior.  
->—[*Object-Oriented Programming with Objective-C*](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/OOP_ObjC/Articles/ooOOP.html#//apple_ref/doc/uid/TP40005149-CH8-SW3), Apple Inc.
 
-A code object representing a water pipe (instead of a smoking pipe) might contain values for `length`, `diameter`, `material`, and `manufacturer`. The bundling of these individual pieces of information together begins to form a larger whole.
+```python
+flatiron_mantra = None
+flatiron_mantra
+```
 
-Object-Oriented Programming, however, does more than just bundle up individual pieces of data that represent a "thing" — it also bundles customized functions that can be performed *on* that data. These are called **methods**: behaviors that an object performs upon its internal data and even upon other code objects.
+Finally, in your command line type `python -m pytest` to see if your tests are passing. If you would like to see a more detailed test output, type `python -m pytest -vv` and it will show each test line by line with its name and whether you've passed or failed it. 
 
-An object in code is a thing with all the data and all the logic required to complete a task. Objects are models and metaphors for the problems we solve in code.
+Once all your tests are passed, type `git add .`, then `git commit -m "finished lab and all tests are passing"`, and finally `git push`. 
 
-Object-oriented programming was born from the trend of making digital lives reflect our real lives. In the 1970's, [Adele Goldberg](https://en.wikipedia.org/wiki/Adele_Goldberg_%28computer_scientist%29) and [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) developed an object-oriented language at Xerox PARC called SmallTalk, which was used in the first personal computer.
+## Making A Pull Request
 
-Python comes with a few types of Objects to get us started, things like `int` for Integer, `str` for String, `list` for List, etc. We call these base types of Objects "Primitives." But what if we wanted to create a new type in our programming universe, a new kind of object for our code? That's what the `class` keyword and object orientation allows us to do.
+The last step, in order to pass a lab, is to make a pull request on github. It's relatively straightforward and will become more natural and easy as you go through the course. Just follow the steps below:
+
+**1.** Go back to your github repository your forked and then cloned. Remember we clicked on the github icon at the top of our learn lesson, then clicked fork, which then brings us to our forked repository. Once we are at the forked repo, click on the **`New Pull Request`** button. (You can optionally click the green `"Compare & pull request"` button.
+
+![new_pull_request](make-new-pull-req.png)
+
+**2.** Then we will be directed to a new page where we will click a green `Create pull request` button.
+
+![create_pull_request](create-pull-req.png)
+
+**3.** Which then will direct us to the final page, where we will finally commit our pull request by clicking `"Create pull request"` one more time. Feel free to update or add to your pull request message, but you can simply skip that step and submit the pull request. 
+
+![finish_pull_request](create-pull-req-final.png)
+
+And that's it! You may need to refresh your learn.co lesson page, but your light should be green and allow you to move on to the next lesson as long as you have passed the tests (which we made sure to do before creating our pull request)!
+
+## Summary
+Great work! We are well on our way to mastering Jupyter notebooks. We practiced reassigning variables, running cells, checking our outputs, and running our tests to get them to pass.
