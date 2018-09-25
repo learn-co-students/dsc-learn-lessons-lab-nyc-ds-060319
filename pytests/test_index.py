@@ -14,6 +14,6 @@ def test_number():
     assert number is not None, "Remember to replace None with 42!"
     assert number == 42, "We want to assign the `number` variable to 42"
 
-def test_faltiron_matra():
-    assert faltiron_matra is not None, "Remember to replace None with the faltiron_matra, `Learn. Love. Code.`!"
-    assert faltiron_matra == "Learn. Love. Code.", "We want to assign the `faltiron_matra` variable to the string `Learn. Love. Code.`"
+def test_flatiron_mantra():
+    assert flatiron_mantra is not None, "Remember to replace None with the flatiron_mantra, `Learn. Love. Code.`!"
+    assert flatiron_mantra == "Learn. Love. Code.", "We want to assign the `flatiron_mantra` variable to the string `Learn. Love. Code.`"
