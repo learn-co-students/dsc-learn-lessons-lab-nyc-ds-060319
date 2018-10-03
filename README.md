@@ -45,7 +45,7 @@ Finally, in your command line type `python -m pytest -x` to see if your tests ar
 
 > **Hint: If you get an error message when you run the tests that ends with `ModuleNotFoundError: No module named 'ipynb.fs.full.index'` then type `pwd` - chances are you're not in the right directory and probably have to cd into the directory you cloned down from GitHub which will be something like `dsc-0-01-07-working-with-lessons-on-learn-lab-online-ds-sp-000`**
 
-Once all your tests are passed, type `git add .`, then `git commit -m "finished lab and all tests are passing"`, and finally `git push`. 
+Once all your tests have passed, type `git add .`, then `git commit -m "finished lab and all tests are passing"`, and finally `git push`. 
 
 ## Summary
 Great work! We are well on our way to mastering Jupyter notebooks! We practiced reassigning variables, running cells, checking our outputs, and running our tests to get them to pass.
