@@ -14,17 +14,31 @@ Assign the below variable `number` to the number `27` by replacing `None` with `
 
 
 ```python
-number = None
+number = 27
 number
 ```
+
+
+
+
+    27
+
+
 
 Next, like the above, reassign the `flatiron_mantra` variable with the string `"Learn. Love. Code."`. 
 
 
 ```python
-flatiron_mantra = None
+flatiron_mantra = "Learn. Love. Code."
 flatiron_mantra
 ```
+
+
+
+
+    'Learn. Love. Code.'
+
+
 
 Finally, in your command line type `python -m pytest` to see if your tests are passing. If you would like to see a more detailed test output, type `python -m pytest -vv` and it will show each test line by line with its name and whether you've passed or failed it. 
 
