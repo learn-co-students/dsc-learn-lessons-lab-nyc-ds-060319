@@ -2,7 +2,7 @@
 # Working with Lessons on Learn - Lab
 
 ## Introduction
-Now that we have had an introduction to the command line, have seen how to clone GitHub repos to our local machine (our computer), and have seen some common Jupyter Notebook operations, it's time to put our skills to the test! Follow the instructions below to pass the tests for this lab. If you're unfamiliar with the concept of variables, don't worry. Just follow along with the instructions - we'll talk about variables and data types much more in the next few lessons!
+Now that we have had an introduction to the command line, have seen how to clone GitHub repos to our local machine (our computer), and have seen some common Jupyter Notebook operations, it's time to put our skills to the test! If you're unfamiliar with the concept of variables, don't worry. Just follow along with the instructions - we'll talk about variables and data types much more in the next few lessons!
 
 ## Objectives
 You will be able to:
