@@ -31,6 +31,20 @@ number = None
 number
 ```
 
+
+```python
+# __SOLUTION__ 
+number = 42
+number
+```
+
+
+
+
+    42
+
+
+
 Next, like the above, reassign the `flatiron_mantra` variable with the string `"Learn. Love. Code."` (make sure to include the double quotes!) 
 
 
@@ -38,6 +52,20 @@ Next, like the above, reassign the `flatiron_mantra` variable with the string `"
 flatiron_mantra = None
 flatiron_mantra
 ```
+
+
+```python
+# __SOLUTION__ 
+flatiron_mantra = "Learn. Love. Code."
+flatiron_mantra
+```
+
+
+
+
+    'Learn. Love. Code.'
+
+
 
 ## Summary
 Great work! We are well on our way to mastering Jupyter notebooks! We practiced reassigning variables, running cells, and checking our outputs.
