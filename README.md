@@ -6,8 +6,10 @@ Now that we have had an introduction to the command line, have seen how to clone
 
 ## Objectives
 You will be able to:
-* Make changes to a Jupyter Notebook and push it up to GitHub
-* Perform basic computations in a Jupyter Notebook and store them in a variable
+* Use basic commands to navigate the command line
+* Use bash commands to create new files and folders
+* Use `git clone` to clone a repository
+* Perform cell operations within Jupyter Notebooks
 
 ## Setup
 
@@ -40,4 +42,4 @@ flatiron_mantra
 ```
 
 ## Summary
-Great work! We are well on our way to mastering Jupyter notebooks! We practiced reassigning variables, running cells, and checking our outputs.
+Great work! We are well on our way to mastering Jupyter notebooks! We reviewed using the command line and `git clone`, running cells, and checking our outputs.
